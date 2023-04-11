@@ -8,7 +8,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpLoaderFactory } from './core/configs';
 import { HeaderComponent } from './shared/components/header/header.component';
-import { ApiHttpService } from './core/services';
 
 @NgModule({
   declarations: [AppComponent],
