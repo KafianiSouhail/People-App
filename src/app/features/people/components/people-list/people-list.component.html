@@ -1,0 +1,8 @@
+<div class="people-list">
+  <app-person
+    [person]="person"
+    *ngFor="let person of people$ | async; trackBy: trackByFn"
+    class="person"
+    (click)="navigateToPersonDetails(person)"
+  ></app-person>
+</div>

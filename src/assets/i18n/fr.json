@@ -1,0 +1,24 @@
+{
+    "shared":{
+        "pages":"pages",
+        "search":"recherche",
+        "people-app":"people app"
+    },
+    "languages":{
+        "french":"francais",
+        "english":"anglais"
+    },
+    "people":{
+        "people":"personnes",
+        "details":"détails",
+        "name": "nom",
+        "eye-color": "couleur des yeux",
+        "birth-year": "Année de naissance",
+        "gender": "genre",
+        "hair-color": "couleur de cheveux",
+        "height": "hauteur",
+        "skin-color": "couleur de peau",
+        "homeworld": "monde d'origine",
+        "mass": "masse"
+    }
+}

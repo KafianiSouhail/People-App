@@ -1,0 +1,15 @@
+<div class="people-container">
+  <div class="serach-container">
+    <app-search-bar
+      (searchKeywordChanges)="onSearchKeywordChanges($event)"
+    ></app-search-bar>
+  </div>
+  <app-people-list class="people-list" [people$]="people$"></app-people-list>
+  <div class="paginator-container">
+    <app-paginator
+      (pageChanges)="onPageChanges($event)"
+      [collectionSize]="count"
+      [pageSize]="PAGE_SIZE"
+    ></app-paginator>
+  </div>
+</div>

@@ -1,10 +1,24 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MyRoutes } from './core/models/enums';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: MyRoutes.HOME,
+    redirectTo: MyRoutes.PEOPLE,
+    pathMatch: 'full',
+  },
+  {
+    path: MyRoutes.PEOPLE,
+    loadChildren: () =>
+      import('./features/people/people.module').then(
+        (module) => module.PeopleModule
+      ),
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -1,0 +1,12 @@
+<header class="header">
+  <h3 class="title">{{ "shared.people-app" | translate }}</h3>
+  <select
+    class="form-select languages-select"
+    (change)="onLanguageChanges($event)"
+  >
+    <option selected value="en">
+      {{ "languages.english" | translate }}
+    </option>
+    <option value="fr">{{ "languages.french" | translate }}</option>
+  </select>
+</header>

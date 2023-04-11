@@ -1,0 +1,25 @@
+{
+    "shared":{
+        "pages":"pages",
+        "search":"search",
+        "people-app":"people app"
+
+    },
+    "languages":{
+        "french":"french",
+        "english":"english"
+    },
+    "people":{
+        "people":"people",
+        "details":"details",
+        "name": "name",
+        "eye-color": "eye color",
+        "birth-year": "birth year",
+        "gender": "gender",
+        "hair-color": "hair color",
+        "height": "height",
+        "skin-color": "skin color",
+        "homeworld": "home world",
+        "mass": "mass"
+    }
+}
